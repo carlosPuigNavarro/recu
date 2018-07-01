@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="edu.ub.alumnes.carlospuig.rec.LogReg.Register">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:lineSpacingExtra="24sp"
+            android:text="Registrar"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#09c6df"
+            android:textSize="45sp" />
+
+        <!-- Editext Name User -->
+        <EditText
+            android:id="@+id/etNameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:backgroundTint="#09c6df"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+
+        <!-- Editext Email Registration -->
+        <EditText
+            android:id="@+id/etEmailReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:backgroundTint="#09c6df"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+
+        <!-- Editext Password Registration -->
+
+        <EditText
+            android:id="@+id/etPasswordReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:backgroundTint="#09c6df"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+
+        <!-- Button Registration -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="166dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/LayerPasswordReg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif"
+            android:text="Registrar"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+        <!-- Go to login -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLoginHeare"
+            android:fontFamily="sans-serif"
+            android:layout_below="@+id/btnRegister"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20sp"
+            android:textColor="#d4ff4081"
+            android:layout_marginBottom="10dp"
+            android:text="¿Ya estás registrado? Ingresar."
+            android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

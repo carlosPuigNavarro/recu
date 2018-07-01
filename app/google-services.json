@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1090289011188",
+    "firebase_url": "https://recuperacion-eed69.firebaseio.com",
+    "project_id": "recuperacion-eed69",
+    "storage_bucket": "recuperacion-eed69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090289011188:android:068e958f2986eb7f",
+        "android_client_info": {
+          "package_name": "edu.ub.alumnes.carlospuig.rec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090289011188-s0jl8eqa21851ctf0mva4qeglq9vehsh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ub.alumnes.carlospuig.rec",
+            "certificate_hash": "49c1ca40a3bab692e2419677f2cd10eb1c5306d4"
+          }
+        },
+        {
+          "client_id": "1090289011188-ckrkk30n3sluerjoejp3n617fb3aqrq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAruXd03zPLZr6XV5BposGaM0_Hmc7ILqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090289011188-ckrkk30n3sluerjoejp3n617fb3aqrq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090289011188:android:11ab854f32b8cd9d",
+        "android_client_info": {
+          "package_name": "edu.ub.alumnes.carlospuig.rec.LogReg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090289011188-qu0jrgjao7q3mtr8js07bga5bi3dm7cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ub.alumnes.carlospuig.rec.LogReg",
+            "certificate_hash": "49c1ca40a3bab692e2419677f2cd10eb1c5306d4"
+          }
+        },
+        {
+          "client_id": "1090289011188-ckrkk30n3sluerjoejp3n617fb3aqrq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAruXd03zPLZr6XV5BposGaM0_Hmc7ILqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090289011188-ckrkk30n3sluerjoejp3n617fb3aqrq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

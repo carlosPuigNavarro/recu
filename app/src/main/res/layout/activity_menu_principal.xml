@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.ub.alumnes.carlospuig.rec.MenuPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Añadir nueva tasca"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/edNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Nom"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Data"
+                android:inputType="datetime"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edAssumte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Assumpte"
+                android:inputType="textMultiLine"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/edUbicacio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Latitut,Longitut"
+                android:inputType="text"
+                android:textAlignment="center" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinnerTipus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_centerInParent="true"
+                    android:hint="Tipus"/>
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinnerEstat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:layout_centerInParent="true"
+                    android:hint="Estat"/>
+
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:id="@+id/btnAnadirAlumno"
+                    android:text="Añadir"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnVerTascas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ver tascas"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/btnVerMapa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ver Mapa"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Cerrar sesión"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#d20000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
